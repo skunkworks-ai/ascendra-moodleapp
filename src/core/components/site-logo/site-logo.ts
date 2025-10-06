@@ -138,4 +138,5 @@ export const enum CoreSiteLogoSiteNameMode {
     HEADING2 = 'h2',
     PARAGRAPH = 'p',
     NOTAG = '',
+    NONE = 'none'
 }

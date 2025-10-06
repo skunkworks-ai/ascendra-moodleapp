@@ -87,11 +87,16 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [
+        {
+            "url": "http://4.194.76.51:8000",
+            "name": "Ascendra"
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
-    "onlyallowlistedsites": false,
-    "forcedefaultlanguage": false,
+    "onlyallowlistedsites": true,
+    "forcedefaultlanguage": true,
     "privacypolicy": "https://moodle.net/moodle-app-privacy/",
     "notificoncolor": "#f98012",
     "enableanalytics": false,

@@ -47,6 +47,9 @@ export default class CoreLoginSitesPage implements OnInit {
      * @inheritdoc
      */
     async ngOnInit(): Promise<void> {
+
+        CoreLoginHelper.goToAddSite(false, true);
+
         if (CoreNavigator.getRouteBooleanParam('openAddSite')) {
             this.add();
         }
