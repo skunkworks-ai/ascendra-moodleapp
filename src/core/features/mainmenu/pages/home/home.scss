@@ -1,0 +1,16 @@
+ion-toolbar::part(background) {
+    background-color: transparent; /* Style the toolbar's background */
+}
+
+ion-toolbar {
+    background: linear-gradient(180deg, #191919 50%, #CE4001 351.87%);
+}
+
+ion-title {
+    padding: 10px !important;
+}
+
+
+.core-logo {
+    max-height: 80px !important;
+}

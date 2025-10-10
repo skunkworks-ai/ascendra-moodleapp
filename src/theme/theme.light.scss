@@ -114,7 +114,7 @@
 
     --core-link-color: var(--info);
 
-    --core-header-toolbar-background: var(--white);
+    // --core-header-toolbar-background: var(--white);
     --core-header-toolbar-border-color: var(--stroke);
     --core-header-toolbar-color: var(--text-color);
     --core-header-buttons-background: transparent;
@@ -168,7 +168,8 @@
 
     --background-gradient-rgb: #{$ion-item-background-rgb};
 
-    --core-login-background: var(--white);
+    // --core-login-background: var(--white);
+    // --core-login-background: var(transparent);
     --core-login-text-color: var(--gray-900);
     --core-login-input-background: var(--white);
     --core-login-input-color: var(--gray-900);

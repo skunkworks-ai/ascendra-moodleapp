@@ -19,3 +19,7 @@ img.core-logo {
     font: var(--core-site-logo-sitename-font);
     margin-bottom: var(--core-site-logo-sitename-margin-bottom, 0px);
 }
+
+.core-logo {
+    max-height: 80px;
+}

@@ -1,14 +1,14 @@
-<ion-header>
+<ion-header id="home-page-header">
     <ion-toolbar>
         <ion-buttons slot="start">
             <ion-back-button [text]="'core.back' | translate" />
         </ion-buttons>
         <ion-title>
-            <h1>
-                <core-site-logo logoType="top" />
+            <h1 style="text-align: center;">
+                <core-site-logo siteNameMode="none" />
             </h1>
         </ion-title>
-        <ion-buttons slot="end">
+        <ion-buttons slot="end" style="position: absolute; right: 10px;">
             <core-user-menu-button />
         </ion-buttons>
     </ion-toolbar>

@@ -89,7 +89,7 @@
     "customurlscheme": "moodlemobile",
     "sites": [
         {
-            "url": "http://4.194.76.51:8000",
+            "url": "http://staging.learninghub.portal.internal.ascendra-ai.com/",
             "name": "Ascendra"
         }
     ],

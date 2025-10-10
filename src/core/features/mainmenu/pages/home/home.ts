@@ -31,6 +31,7 @@ import { MAIN_MENU_HOME_PAGE_NAME } from '@features/mainmenu/constants';
 @Component({
     selector: 'page-core-mainmenu-home',
     templateUrl: 'home.html',
+    styleUrl: './home.scss',
     imports: [
         CoreSharedModule,
         CoreSiteLogoComponent,
